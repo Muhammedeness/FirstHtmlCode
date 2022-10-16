@@ -1,0 +1,172 @@
+<!--
+<br> boşluk etiketidir
+<!DOCTYPE html> belgenin html dilinde olduğunu söyler
+<p> yeni paragraf açar
+<ul> unordered list
+<ol> ordered list
+   <li> liste elemanarının icini bununla doldururuz
+<script> içerisine javascript kodları yazılır
+<a href="https://www.youtube.com/">TIKLAYINIZ</a>   <a href=""></a> link uzantılı metin paylaşılır  
+-->
+   <!-- 
+           etiket isimlerini direk verebiliriz
+           + kardeş öge
+           > içinde öge
+           ^ yukarı çık ve öge oluştur
+           * p*3 çarparak öge sayısını artırabilir
+           lorem
+           . -> class erişim
+           # -> id
+            
+       -->
+<html>
+
+    <head>
+    <hr>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Muhammed Enes Selvi</title>
+    </head>
+    <div>
+            <body style="background-color:white;">
+                <!-- <i> etiketi texti italic yazar -->
+                <h1><i>Muhammed Enes Selvi</i></h1> 
+                <h2 id="about">Hakkımda</h2>
+                <p>Merhaba ben Muhammed Enes Selvi bilgisayar mühendisligi ogrencisiyim.</p>
+                <h3>İlgi Alanlarım:</h3>
+                <!--sırasız liste açarak içine ilgi alanlarımı doldurdum  -->
+                <ul>
+                    <li>Kod Yazmak</li>
+                    <li>Bilgisayar Oyunu Oynamak</li>  
+                    <li>Film İzlemek</li>
+
+                </ul>
+                
+
+                  <ol>
+
+                            <li>
+                                Film:
+                                <ul>
+                                    <li>LOTR Serisi</li>
+                                    <li>The Batman(2022)</li>
+                                    <li>Dune:Çöl Gezegeni</li>
+                                    <li>Seven</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                Dizi:
+                                    <ul>
+                                        <li>Breaking Bad</li>
+                                        <li>Vikings</li>
+                                        <li>Moon Knight</li>
+                                        <li>The Boys</li>
+                                    </ul>
+                            </li>
+
+                            <li>
+                                Kitap:
+                                    <ul>
+                                        <li>Dune</li>
+                                        <li>1984</li>
+                                        <li>Vakıf</li>
+                                    </ul>
+                            </li>
+                  </ol>
+                <!-- img etiketi  width ve height ile boyut ayarlaması yapılabilir
+                    title ile imleç resim üzerine geldiğinde bilgi verir resim   -->
+                <!-- strong etiketi ile önemli kelimeleri kalın yazabilirsin -->
+                <p><strong>Lorem Picsum</strong></p>   
+        
+                <a href="https://picsum.photos/" target="_blank">
+                    <img src="https://picsum.photos/600/300" alt="Lorem Picsum" title="random lorem pic">
+                    </a>       
+
+                <img src="images/318-200x300.jpg" alt="eyfel kulesi" title="eiffel tower" >
+                <hr>
+                <p>DUELS OF MELKOR AND ARAGORN</p>
+                <p>this picture created by <a href="https://www.midjourney.com/" target="_blank">midjourneyAI</a></p>
+                <a href="https://tr.wikipedia.org/wiki/Melkor" target="_blank">
+                    <img src="/images/img_6.png" alt="melkor and aragorn" height="600" width="850" title="aragorn vs melkor">
+                </a>
+                
+
+            <!-- linkler ile
+                -başka bir websitesine gitme
+                -başka bir sayfaya gitme
+                -aynı sayfa içinde başka bir yere gitme
+                -mail atma veya telefon etme
+            
+            -->
+                <hr>
+
+                <h1>Linkler ile calismak:</h1>
+            
+                <ul>
+                    <li>
+                        <a href="https://obs.atauni.edu.tr/" target="_blank">
+                            Ogrenci Bilgi Sistemi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="iletisim.html" target="_blank">
+                            Iletisim Sayfasi            
+                        </a>
+                    </li>
+                    <li>
+                    <a href="#video">
+                        Videoya Git
+                    </a>  
+                    </li>
+                    <li>
+                        <a href="#about">
+                            Hakkımda
+                        </a>
+                    </li>
+                    <li>
+                        
+                        <a href="#" > Mail</a>
+                    </li>
+                </ul>
+                    
+                <!-- 
+                    inline elementler mevcut yerleri kadar yer kaplarlar bütün blogu değil
+                -->
+                <hr>
+
+    </div>
+        <!-- asagida kodluyoruz sitesinin bir kısmını klonladım -->
+        <ol>
+            <br><br>
+          <h2>Kodluyoruz Web Sitesi Klonu</h2>
+         <li>Öğren
+         <ul>
+            <li>kodla dönüştürelim</li>
+            <li>Bootcamp</li>
+            <li>atölye</li>
+            <li>Kodluyoruz</li>
+            <li>CS50x</li>
+         </ul>
+        </li>
+         <li>Topluluk</li>
+         <li>Kodluyoruz Jr.</li>
+
+        </ol>
+        <img src="/images/indir.png" alt="kod simgesi" width="150" height="150">
+      <h3>Bootcamplere Katıl</h3>
+      <p>Partnerimiz kurumlar/şirketler ile ücretsiz<br>programlar açıyoruz ve sektörde en çok<br>aranan becerileri öğretiyoruz. Kodluyoruz<br> Bootcamp’lerini başarıyla tamamla partner<br>şirketlerde/kurumlarda doğrudan işe başla!</p>
+           
+      <a  href="https://youtu.be/Tdd2psZDrh4" target="_blank">Klüp Hakkında</a>
+
+      <h2>Kodluyoruzla Hayatı degisenler</h2>
+       
+       <iframe id="video" width="300" height="150" src="https://www.youtube.com/embed/2gZ-lx3oI5s" title="Kodluyoruz I Başarı Hikayeleri Serisi I Mahmut Yıldız" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        
+    </body>
+    </html>
+    <!-- BU BİR AÇIKLAMA SATIRIDI -->
+    
